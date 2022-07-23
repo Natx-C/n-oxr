@@ -71,7 +71,7 @@ exports.run = {
                title: '© dixie-bot v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0078eb331c31148d98d25.jpg)
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0078eb331c31148d98d25.jpg')
             })
          } else if (args[0] == 4) {
             const data = global.db.setting.pluginDisable
@@ -83,7 +83,7 @@ exports.run = {
                title: '© dixie-bot v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0078eb331c31148d98d25.jpg)
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0078eb331c31148d98d25.jpg')
             })
          } else if (args[0] == 5) {
             const data = Object.entries(global.db.users).filter(([_, data]) => data.premium)
@@ -95,7 +95,7 @@ exports.run = {
                title: '© dixie-bot v2.2.0 (Public Bot)',
                ads: false,
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0078eb331c31148d98d25.jpg)
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0078eb331c31148d98d25.jpg')
             })
          } else if (args[0] == 6) {
             if (!isOwner) return client.reply(m.chat, global.status.owner, m)
