@@ -27,7 +27,7 @@ exports.run = {
          caption += `	◦ *Premium* : ${(user.premium ? '√' : '×')}\n\n`
          caption += global.footer
          client.sendMessageModify(m.chat, caption, m, {
-         	title: '© neoxr-bot v2.2.0 (Public Bot)',
+         	title: '© dixie-bot v2.2.0 (Public Bot)',
              largeThumb: true,
              thumbnail: pic
          })
