@@ -18,10 +18,10 @@ exports.run = {
          teks += `	◦  *Duration* : ${json.data.duration}\n\n`
          teks += global.footer
          client.sendMessageModify(m.chat, teks, m, {
-            title: '© neoxr-bot v2.2.0 (Public Bot)',
+            title: '© dixie-bot v2.2.0 (Public Bot)',
             ads: false,
             largeThumb: true,
-            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/92be727e349c3cf78c98a.jpg')
+            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0078eb331c31148d98d25.jpg')
          }).then(() => {
             client.sendFile(m.chat, json.data.audio, json.data.title + '.mp3', '', m, {
                document: true
