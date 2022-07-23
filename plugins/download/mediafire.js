@@ -25,7 +25,7 @@ exports.run = {
          client.sendMessageModify(m.chat, text, m, {
             title: '© dixie-bot v2.2.0 (Public Bot)',
             largeThumb: true,
-            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0078eb331c31148d98d25.jpg)
+            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0078eb331c31148d98d25.jpg')
          }).then(async () => {
             client.sendFile(m.chat, json.data.link, unescape(decode(json.data.filename)), '', m)
          })
