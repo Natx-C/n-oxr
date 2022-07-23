@@ -28,7 +28,7 @@ exports.run = {
          }
          const system = global.db.setting
          client.sendMessageModify(m.chat, statistic(stats, system), m, {
-            title: '© neoxr-bot v2.2.0 (Public Bot)',
+            title: '© dixie-bot v2.2.0 (Public Bot)',
             ads: false,
             largeThumb: true,
             thumbnail: await Func.fetchBuffer('https://telegra.ph/file/0078eb331c31148d98d25.jpg'')
